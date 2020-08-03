@@ -8,7 +8,7 @@ webdriver.get('https://www.instagram.com/accounts/login/')
 sleep(3)
 username = webdriver.find_element_by_name('username')
 
-username.send_keys('random__technologies1')
+username.send_keys('enter user name')
 
 password = webdriver.find_element_by_name('password')
 passfile=open('mat.txt','r')
